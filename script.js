@@ -24,3 +24,7 @@
         `;
         document.head.appendChild(style);
         setInterval(createHeart, 300);
+
+        document.getElementById('introContinue').addEventListener('click', () => {
+            document.getElementById('introScreen').hidden = true;
+        });
